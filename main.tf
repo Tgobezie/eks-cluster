@@ -62,7 +62,7 @@ module "eks" {
   version = "~> 21.0"
 
   name               = "eks-cluster"
-  kubernetes_version = "1.33"
+  kubernetes_version = "1.31"
 
   endpoint_public_access = true
 
@@ -86,5 +86,9 @@ module "eks" {
       max_size     = 1
       desired_size = 1
     }
+  }
+
+  tags = {
+    Name = var.eksname
   }
 }
