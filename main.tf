@@ -79,7 +79,7 @@ module "eks" {
 
   eks_managed_node_groups = {
     eksdemo = {
-      ami_type       = "ami-0886832e6b5c3b9e2"
+      ami_type       = "AL2023_x86_64_STANDARD"
       instance_types = ["m5.xlarge"]
 
       min_size     = 1
