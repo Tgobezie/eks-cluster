@@ -43,8 +43,8 @@ jobs:
     - name: Terraform Plan
       run: terraform plan
 
-    - name: Terraform Apply
-      run: terraform apply -auto-approve
+    - name: Terraform Apply # change Apply to Destroy or vice versa as needed
+      run: terraform apply -auto-approve # change apply to destroy or vice versa as needed
       env:
         TF_VAR_ec2_name:  "${{ github.event.inputs.eks-name }}"
     
