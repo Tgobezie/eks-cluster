@@ -1,7 +1,7 @@
 # eks-infra-cicd
 
-
-### EKS Infrastructure Provisioning Automation with Terraform and GitHub Actions
+deploy an EKS cluster using Terraform
+### Deploy EKS Infrastructure with Terraform and GitHub Actions
 ```
 Created resources in AWS Cloud using Terraform.
 Resources provisioned:
@@ -14,7 +14,7 @@ The Terraform state file will be stored in S3 bucket.
 ```
 
 
-### Deploy code to AWS Cloud using GitHub Actions CI/CD pipeline
+### Deploy Terraform code to AWS Cloud using GitHub Actions CI/CD pipeline
 ```
 Created GitHub Actions CI/CD configuration file.
 Tested and deployed code using the CI/CD pipeline.

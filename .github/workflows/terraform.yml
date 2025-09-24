@@ -8,7 +8,7 @@ on:
   #   branches:
   #     - main
     
-  workflow_dispatch:
+  workflow_dispatch: # This is helpful to review code and start pipeline manually on github
     inputs:
       eks-name:
         description: EKS name
