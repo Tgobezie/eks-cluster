@@ -51,8 +51,9 @@ YAML for pipeline script
 
 
 
-# Solution Diagram
+## Solution Diagram
 <img src="images/eks-infra-cicd.png" width="700">
+
 
 
 
@@ -62,7 +63,7 @@ https://github.com/Tgobezie/go-app-repo
 
 
 
-### Author
+## Author
 ```
 Tee Gobezie
 ```
