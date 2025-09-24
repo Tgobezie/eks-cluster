@@ -52,7 +52,7 @@ YAML for pipeline script
 
 
 ## Solution Diagram
-<img src="images/eks-infra-cicd.png" width="700">
+<img src="images/eks-infra-cicd.png" width="600">
 
 
 
