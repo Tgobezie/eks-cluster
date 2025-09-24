@@ -51,21 +51,21 @@ YAML for pipeline script
 
 
 
-## Solution Diagram
-```
+# Solution Diagram
+
 <img src="images/eks-infra-cicd.png" width="600">
-```
 
 
 
-### Go-app-repository
+
+# Go-app-repository
 ```
 https://github.com/Tgobezie/go-app-repo
 ```
 
 
 
-## Author
+# Author
 ```
 Tee Gobezie
 ```
