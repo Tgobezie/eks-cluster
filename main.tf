@@ -72,21 +72,6 @@ module "eks" {
     kube-proxy             = {}
     vpc-cni                = {}
 }
-# module "eks" {
-#   source  = "terraform-aws-modules/eks/aws"
-#   version = "~> 20.0"
-
-#   name               = "eks-cluster"
-#   kubernetes_version = "1.31"
-
-#   endpoint_public_access = true
-
-#   addons = {
-#     coredns                = {}
-#     eks-pod-identity-agent = {}
-#     kube-proxy             = {}
-#     vpc-cni                = {}
-#   }
 
   vpc_id                   = aws_vpc.main.id
   subnet_ids               = [aws_subnet.subnet_1.id, aws_subnet.subnet_2.id, aws_subnet.subnet_3.id]
