@@ -1,4 +1,4 @@
-# eks-cluster
+# eks-infra-cicd
 
 
 ## EKS Infrastructure Provisioning Automation with Terraform and GitHub Actions
@@ -34,7 +34,7 @@ YAML for pipeline script
 
 
 ## Solution Diagram
-<img src="images/eks-demo.png" width="700">
+<img src="images/eks-infra-cicd.png" width="700">
 
 
 
