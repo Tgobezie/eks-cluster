@@ -61,10 +61,11 @@ YAML for pipeline script
 
 
 
-# Go-app-repository
-
+# eks-go-app
 https://github.com/Tgobezie/eks-go-app
 
+# eks-flask-app
+https://github.com/Tgobezie/eks-flask-app
 
 
 
