@@ -3,7 +3,6 @@
 deploy an EKS cluster using Terraform
 
 <br />
-<br />
 
 ### Deploy EKS Infrastructure with Terraform and GitHub Actions
 ```
@@ -17,14 +16,12 @@ Resources provisioned:
 The Terraform state file will be stored in S3 bucket.
 ```
 <br />
-<br />
 
 ### Deploy Terraform code to AWS Cloud using GitHub Actions CI/CD pipeline
 ```
 Created GitHub Actions CI/CD configuration file.
 Tested and deployed code using the CI/CD pipeline.
 ```
-<br />
 <br />
 
 ### Tools used in the project
@@ -51,14 +48,12 @@ YAML for pipeline script
 5. Cync app repo with ArgoCD
 ```
 <br />
-<br />
 
 ### Deploy app manually using the deployment manifest file
 - Deploy flask/python app for resource monitoring
 - App repo is eks-flask-app
 - Create manifest file locally
 - Create app on EKS cluster: kubectl apply -f deploy.yaml
-<br />
 <br />
 
 ### Deploy app using helm charts
@@ -71,7 +66,6 @@ YAML for pipeline script
 - Update repeatitive names with variables whose values will be given in values.yaml
 - Update all necessary configurations
 - Install the desired application: helm install APP-NAME CHART-NAME
-<br />
 <br />
 
 # App Deployment Methods
