@@ -1,4 +1,4 @@
-# eks-infra-cicd
+# eks-terraform-infra
 
 deploy an EKS cluster using Terraform
 
