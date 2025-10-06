@@ -70,16 +70,16 @@ YAML for pipeline script
 - eks-go-app - using ArgoCD and CI/CD: https://github.com/Tgobezie/eks-go-app
 - eks-flask-app - using local manifest file: https://github.com/Tgobezie/eks-flask-app
 - helm-repo - using helm charts: https://github.com/Tgobezie/helm-repo
-
-
-
+<br />
+<br />
+<br />
 # Solution Diagram
 
 <img src="images/eks-infra-cicd.png" width="600">
-
-
-
-
+<br />
+<br />
+<br />
+<br />
 # Author
 ```
 Tee Gobezie
