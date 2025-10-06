@@ -67,14 +67,9 @@ YAML for pipeline script
 
 # App Deployment Methods
 
-- eks-go-app - using ArgoCD and CI/CD
-- https://github.com/Tgobezie/eks-go-app
-
-- eks-flask-app - using local manifest file
-- https://github.com/Tgobezie/eks-flask-app
-
-- helm-repo - using helm charts
-- https://github.com/Tgobezie/helm-repo
+- eks-go-app - using ArgoCD and CI/CD: https://github.com/Tgobezie/eks-go-app
+- eks-flask-app - using local manifest file: https://github.com/Tgobezie/eks-flask-app
+- helm-repo - using helm charts: https://github.com/Tgobezie/helm-repo
 
 
 
