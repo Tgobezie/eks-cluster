@@ -73,6 +73,7 @@ YAML for pipeline script
 <br />
 <br />
 <br />
+
 # Solution Diagram
 
 <img src="images/eks-infra-cicd.png" width="600">
@@ -80,6 +81,7 @@ YAML for pipeline script
 <br />
 <br />
 <br />
+
 # Author
 ```
 Tee Gobezie
