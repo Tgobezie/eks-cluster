@@ -61,20 +61,20 @@ YAML for pipeline script
 - Include all deployment, service, configmap, and other resource files in templates folder
 - Update repeatitive names with variables whose values will be given in values.yaml
 - Update all necessary configurations
-- Install the desired application: helm install <appName> <helm-chart-name>
+- Install the desired application: helm install APP-NAME CHART-NAME
 
 
 
 # App Deployment Methods
 
-### eks-go-app - using ArgoCD and CI/CD
-https://github.com/Tgobezie/eks-go-app
+- eks-go-app - using ArgoCD and CI/CD
+- https://github.com/Tgobezie/eks-go-app
 
-### eks-flask-app - using local manifest file
-https://github.com/Tgobezie/eks-flask-app
+- eks-flask-app - using local manifest file
+- https://github.com/Tgobezie/eks-flask-app
 
-### helm-repo - using helm charts
-https://github.com/Tgobezie/helm-repo
+- helm-repo - using helm charts
+- https://github.com/Tgobezie/helm-repo
 
 
 
