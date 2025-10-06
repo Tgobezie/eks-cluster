@@ -60,7 +60,7 @@ YAML for pipeline script
 - Update all necessary configurations
 - Install the desired application: helm install APP-NAME CHART-NAME
 
-# App Deployment Methods
+### App Deployment Methods
 
 - eks-go-app - using ArgoCD and CI/CD: https://github.com/Tgobezie/eks-go-app
 - eks-flask-app - using local manifest file: https://github.com/Tgobezie/eks-flask-app
