@@ -52,24 +52,35 @@ YAML for pipeline script
 - Create app on EKS cluster: kubectl apply -f deploy.yaml
 
 
+### Deploy app using helm charts
+- Download helm installation file
+- Install helm and make sure it is in the path
+- Create a custom helm chart: helm create webapp
+- Update the chart.yaml for your application versions
+- Update the values.yaml to hold the key:value pairs that will be used in templates folder
+- Include all deployment, service, configmap, and other resource files in templates folder
+- Update repeatitive names with variables whose values will be given in values.yaml
+- Update all necessary configurations
+- Install the desired application:
+```
+helm install <appName> <helm-chart-name>
+```
+
+# App Deployment Methods
+
+### eks-go-app - using ArgoCD and CI/CD
+https://github.com/Tgobezie/eks-go-app
+
+### eks-flask-app - using local manifest file
+https://github.com/Tgobezie/eks-flask-app
+
+### helm-repo - using helm charts
+https://github.com/Tgobezie/helm-repo
+
 
 # Solution Diagram
 
 <img src="images/eks-infra-cicd.png" width="600">
-
-
-
-
-# App Deployment Methods
-
-## eks-go-app - using ArgoCD and CI/CD
-https://github.com/Tgobezie/eks-go-app
-
-## eks-flask-app - using local manifest file
-https://github.com/Tgobezie/eks-flask-app
-
-## helm-repo - using helm charts
-https://github.com/Tgobezie/helm-repo
 
 
 
