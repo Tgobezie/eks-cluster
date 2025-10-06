@@ -1,6 +1,6 @@
 # eks-terraform-infra
 
-deploy an EKS cluster using Terraform
+- deploy an EKS cluster using Terraform
 
 ### Deploy EKS Infrastructure with Terraform and GitHub Actions
 ```
@@ -15,33 +15,27 @@ The Terraform state file will be stored in S3 bucket.
 ```
 
 ### Deploy Terraform code to AWS Cloud using GitHub Actions CI/CD pipeline
-```
-Created GitHub Actions CI/CD configuration file.
-Tested and deployed code using the CI/CD pipeline.
-```
+- Created GitHub Actions CI/CD configuration file.
+- Tested and deployed code using the CI/CD pipeline.
 
 ### Tools used in the project
-```
-AWS Cloud
-AWS CLI
-Terraform
-VSCode to write the Terraform code
-Git/GitHub
-GitHub Actions CI/CD
-YAML for pipeline script
-```
+- AWS Cloud
+- AWS CLI
+- Terraform
+- VSCode to write the Terraform code
+- Git/GitHub
+- GitHub Actions CI/CD
+- YAML for pipeline script
 <br />
 
 # App Deployment
 
 ### Install ArgoCD and configure ci/cd deployment
-```
-1. Install ArgoCD on EKS cluster
-2. Log into UI of ArgoCD
-3. Configure ArgoCD
-4. Create app repo in GitHub
-5. Cync app repo with ArgoCD
-```
+- Install ArgoCD on EKS cluster
+- Log into UI of ArgoCD
+- Configure ArgoCD
+- Create app repo in GitHub
+- Cync app repo with ArgoCD
 
 ### Deploy app manually using the deployment manifest file
 - Deploy flask/python app for resource monitoring
@@ -73,6 +67,5 @@ YAML for pipeline script
 <br />
 
 # Author
-```
-Tee Gobezie
-```
+- Tee Gobezie
+
